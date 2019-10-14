@@ -68,6 +68,13 @@ public class MathOperators {
 			System.out.println(number1+"*"+i+"="+number1*i);
 		}
 	}
+	@Test
+	public void java() {
+		System.out.println("   j");
+		System.out.println("   j");
+		System.out.println("j j");
+		System.out.println("jjj");
+	}
 	
 	
 	
