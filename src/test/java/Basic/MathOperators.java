@@ -61,6 +61,7 @@ public class MathOperators {
 	}
 	@Test
 	public void multiplyUpTo10() {
+		//this is a scanner
 		Scanner sc=new Scanner(System.in);
 		System.out.println( "Enter first number: ");
 		int number1=sc.nextInt();
