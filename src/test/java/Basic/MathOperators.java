@@ -69,14 +69,14 @@ public class MathOperators {
 		}
 	}
 	@Test
-	public void java() {
-		System.out.println("   j");
-		System.out.println("   j");
-		System.out.println("j j");
-		System.out.println("jjj");
+	public void nextExercise() {
+		
 	}
 	
-	
+	@Test
+	public void newTest() {
+		
+	}
 	
 	
 	
