@@ -70,8 +70,18 @@ public class MathOperators {
 		}
 	}
 	@Test
-	public void nextExercise() {
-		//edit
+	public void test() {
+		// Write a Java program that takes three numbers as input to calculate and print the average of the numbers.
+		Scanner sc=new Scanner(System.in);
+		int sum=0;
+		int numbers=0;
+		for (int i=0;i<3;i++) {
+			System.out.println("Enter any hole number: ");
+			int inputNumbers=sc.nextInt();
+			numbers++;
+			sum=sum+inputNumbers;
+		}
+		System.out.println("The average number of your input numbers is: "+sum/numbers);
 	}
 	
 	@Test

@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4429" started-at="2019-10-14T00:40:56Z" finished-at="2019-10-14T00:41:00Z">
+  <suite name="Default suite" duration-ms="7593" started-at="2019-10-15T00:16:02Z" finished-at="2019-10-15T00:16:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4429" started-at="2019-10-14T00:40:56Z" finished-at="2019-10-14T00:41:00Z">
+    <test name="Default test" duration-ms="7593" started-at="2019-10-15T00:16:02Z" finished-at="2019-10-15T00:16:09Z">
       <class name="Basic.MathOperators">
-        <test-method status="PASS" signature="multiplyUpTo10()[pri:0, instance:Basic.MathOperators@6f79caec]" name="multiplyUpTo10" duration-ms="4408" started-at="2019-10-13T19:40:56Z" finished-at="2019-10-13T19:41:00Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:Basic.MathOperators@67117f44]" name="test" duration-ms="7573" started-at="2019-10-14T19:16:02Z" finished-at="2019-10-14T19:16:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multiplyUpTo10 -->
+        </test-method> <!-- test -->
       </class> <!-- Basic.MathOperators -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
