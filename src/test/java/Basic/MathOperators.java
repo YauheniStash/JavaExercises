@@ -71,14 +71,16 @@ public class MathOperators {
 	}
 	@Test
 	public void test() {
-		// Write a Java program that takes three numbers as input to calculate and print the average of the numbers.
+		// Write a Java program that calculates the average of input numbers.
 		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number of numbers you want to calculate the evarage: ");
+		int numbers=sc.nextInt();
 		int sum=0;
-		int numbers=0;
-		for (int i=0;i<3;i++) {
+		
+		for (int i=0;i<numbers;i++) {
 			System.out.println("Enter any hole number: ");
 			int inputNumbers=sc.nextInt();
-			numbers++;
+			
 			sum=sum+inputNumbers;
 		}
 		System.out.println("The average number of your input numbers is: "+sum/numbers);
@@ -86,10 +88,48 @@ public class MathOperators {
 	
 	@Test
 	public void newTest() {
-		//edit2
+		// Write a Java program that calculates the average of input numbers.
+		double num = 0;
+		  double x = 1;
+		  Scanner sc = new Scanner(System.in);
+		  System.out.println("Input the number(n) you want to calculate the average: ");
+		  int n = sc.nextInt();
+		  while (x <= n) {
+		   System.out.println("Input number " + "("+ (int) x +")" + ":");
+		   num += sc.nextInt();
+		   x += 1;
+		  }
+		  double avgn = (num / n);
+
+		  System.out.println("Average:" + avgn);
+		 
 	}
+	@Test
+	public void perimeterAndAreaOfRectangle() {
+	//Write a Java program to print the area and perimeter of a rectangle
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the length of the rectangle: ");
+		double length=sc.nextDouble();
+		System.out.println("Enter the width of the rectangle: ");
+		double width=sc.nextDouble();
+		double perimeter=(length+width)*2;
+		double area=length*width;
+		System.out.println(perimeter);
+		System.out.println(area);	
 	
-	
+	}
+	@Test
+	public void missinNumber() {
+		/*You are given a list of n- integers and these integers are in the range
+		of 1 to n. There are no duplicates in the list. One of the integers is
+		missing in the list. Write an efficient code to find the missing integer.*/
+		int arr[]= {1,3,5,6,2};
+		int sum=0;
+		for (int i=0;i<arr.length;i++) {
+			sum=sum+arr[i];
+		}
+		System.out.println(sum);
+	}
 	
 
 }
